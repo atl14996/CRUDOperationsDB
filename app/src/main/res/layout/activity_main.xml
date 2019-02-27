@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvStudentID"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:id="@+id/tvStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <TextView
+        android:id="@+id/tvStudentMajor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <TextView
+        android:id="@+id/tvStudentMinor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="167dp" />
+
+    <TextView
+        android:id="@+id/tvStudentGPA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <TextView
+        android:id="@+id/tvStudentGradYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <TextView
+        android:id="@+id/tvStudentCreditHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="82dp" />
+
+    <Button
+        android:id="@+id/btnEnterStudentData"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:onClick="onClick"
+        android:text="ENTER STUDENT DATA"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <Button
+        android:id="@+id/btnQueryUpdateDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="QUERY DELETE OR UPDATE STUDENT"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <EditText
+        android:id="@+id/etUpdateStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER STUDENT NAME"/>
+
+    <EditText
+        android:id="@+id/etUpdateStudentMAJOR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER STUDENT MAJOR"/>
+
+    <EditText
+        android:id="@+id/etUpdateStudentMinor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER STUDENT MINOR"/>
+
+    <EditText
+        android:id="@+id/etUpdateStudentGPA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER STUDENT GPA"/>
+
+    <EditText
+        android:id="@+id/etUpdateExpectedYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER EXPECTED GRADUTION YEAR"/>
+
+    <EditText
+        android:id="@+id/etUpdateCreditHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER CREDIT HOURS"/>
+
+    <Button
+        android:id="@+id/btnUpdateRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE RECORD"
+        android:onClick="onClick"/>
+
+    <Button
+        android:id="@+id/btndeleteRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DELETE RECORD"
+        android:onClick="onClick"/>
+
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DataEntryActivity">
+
+    <EditText
+        android:id="@+id/etStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER STUDENT NAME"/>
+
+    <EditText
+        android:id="@+id/etStudentMAJOR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER STUDENT MAJOR"/>
+
+    <EditText
+        android:id="@+id/etStudentMinor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER STUDENT MINOR"/>
+
+    <EditText
+        android:id="@+id/etStudentGPA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER STUDENT GPA"/>
+
+    <EditText
+        android:id="@+id/etExpectedYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER EXPECTED GRADUTION YEAR"/>
+
+    <EditText
+        android:id="@+id/etCreditHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ENTER CREDIT HOURS"/>
+
+    <Button
+        android:id="@+id/btnSavetoDatabase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE TO DATABASE"
+        android:onClick="onClick"/>
+
+</LinearLayout>
